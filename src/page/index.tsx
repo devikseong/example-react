@@ -6,6 +6,7 @@ const Index = () => {
     return <div className="w-full flex flex-col gap-4 overflow-y-auto">
         <button onClick={() => navigate("/page1")}>page1 useState</button>
         <button onClick={() => navigate("/page2")}>page2 useReducer</button>
+        <button onClick={() => navigate("/page3")}>page3 useReducer custom</button>
     </div>
 }
 
