@@ -15,7 +15,7 @@ const Page1 = () => {
     
     return <div>
         {count}
-        <button onClick={() => setCount((c) => c+1)} >
+        <button className="ml-3" onClick={() => setCount((c) => c+1)} >
             +1
         </button>
     </div>
