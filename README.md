@@ -29,4 +29,21 @@ const reducer = (state, action) => {
     return state
 }
 
+상태 끌어올리기(lifting state up)
+내용 끌어올리기(lifting content up)
 
+P39 전역 상태 사용하기 
+
+Props를 전달하는 것이 적절하지 않을 때
+이미 리액트 외부에 상태가 있을 때
+
+03. 리액트 컨텍스트를 이용한 컴포넌트 상태 공유
+  useContext
+    문제, 갱신될때 마다 모든 컨텍스트 소비자(consumer)가 리렌더링 되어 불필요한 렌더링이 발생
+useState와 useContext 탐구하기
+useContext 없이 useState 사용하기
+정적 값을 이용해 useContext 사용하기
+  Page4
+
+useContext와 함께 useState 사용하기
+  Page5
