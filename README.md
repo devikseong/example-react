@@ -45,5 +45,11 @@ useContext 없이 useState 사용하기
 정적 값을 이용해 useContext 사용하기
   Page4
 
-useContext와 함께 useState 사용하기
+P50. useContext와 함께 useState 사용하기
   Page5
+
+P53. 컨텍스트 이해하기
+  Page6
+컨텍스트 전파의 작동 방식
+  memo 리렌더링 발생하는것을 방지
+  
