@@ -61,5 +61,9 @@ P59.전역 상태를 위한 컨텍스트 만들기
   Page8
     -작은 상태 조각 만들기
     -useReducer로 하나의 상태를 만들고 여러 컨테스트로 전파하기
+
+P63.useReducer로 하나의 상태를 만들고 여러 개의 컨텍스트로 전파하기
+  Page9
+    Context와 useReducer 연결 처리
     
   
