@@ -1,4 +1,4 @@
-import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useState } from "react"
+import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useEffect, useRef, useState } from "react"
 
 type CountContextType = [
     number,
@@ -10,8 +10,13 @@ const Count2Context = createContext<CountContextType>([0, () => {}])
 
 const Counter1 = () => {
     const [count1, setCount1] = useContext(Count1Context)
+    const ref = useRef(0)
+    useEffect( () => {
+        ref.current += 1
+    })
+
     return <div>
-        Count1: {count1}
+        Count1: {count1}, Ref: {ref.current}
         <button onClick={() => setCount1((c) => c + 1)}>
             +1
         </button>
@@ -20,8 +25,14 @@ const Counter1 = () => {
 
 const Counter2 = () => {
     const [count2, setCount2] = useContext(Count2Context)
+    const ref = useRef(0)
+
+    useEffect( () => {
+        ref.current += 1
+    })
+
     return <div>
-        Count1: {count2}
+        Count1: {count2}, Ref: {ref.current}
         <button onClick={() => setCount2((c) => c + 1)}>
             +1
         </button>
