@@ -10,6 +10,8 @@ const Index = () => {
         <button onClick={() => navigate("/page4")}>page4 useContext</button>
         <button onClick={() => navigate("/page5")}>page5 useContext and state</button>
         <button onClick={() => navigate("/page6")}>page6 memo</button>
+        <button onClick={() => navigate("/page7")}>page7 useContext issue</button>
+        <button onClick={() => navigate("/page8")}>page8 maske small particle</button>
     </div>
 }
 
