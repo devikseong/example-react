@@ -43,7 +43,7 @@ const Parent = () => {
 
 const Provider = ({ children }: { children: ReactNode}) => {
     const [state, dispatch] = useReducer(( prev: { count1: number; count2: number}, action: Action ) => {
-
+        
         console.log("ACTION " + action.type)
         
         if (action.type === "INC1") {

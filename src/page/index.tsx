@@ -13,6 +13,9 @@ const Index = () => {
         <button onClick={() => navigate("/page7")}>page7 useContext issue</button>
         <button onClick={() => navigate("/page8")}>page8 maske small particle</button>
         <button onClick={() => navigate("/page9")}>useReducer and context</button>
+        <button onClick={() => navigate("/page10")}>User Custom Hook</button>
+        <button onClick={() => navigate("/page11")}>User Custom Hook Custom Context</button>
+        <button onClick={() => navigate("/page12")}>Subscriber</button>
         
     </div>
 }

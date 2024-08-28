@@ -18,6 +18,9 @@ import Page6 from './page/advance/page6';
 import Page7 from './page/advance/page7';
 import Page8 from './page/advance/page8';
 import Page9 from './page/advance/page9';
+import Page10 from './page/advance/page10';
+import Page11 from './page/advance/page11';
+import Page12 from './page/advance/page12';
 
 function App() {
   return <BrowserRouter>
@@ -32,6 +35,9 @@ function App() {
     <Route path="/page7" element={<Page7 />} />
     <Route path="/page8" element={<Page8 />} />
     <Route path="/page9" element={<Page9 />} />
+    <Route path="/page10" element={<Page10 />} />
+    <Route path="/page11" element={<Page11 />} />
+    <Route path="/page12" element={<Page12 />} />
   </Routes>
 </BrowserRouter>
 }
