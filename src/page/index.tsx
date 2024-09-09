@@ -16,6 +16,8 @@ const Index = () => {
         <button onClick={() => navigate("/page10")}>User Custom Hook</button>
         <button onClick={() => navigate("/page11")}>User Custom Hook Custom Context</button>
         <button onClick={() => navigate("/page12")}>Subscriber</button>
+        <button onClick={() => navigate("/page13")}>선택자와 useSubscription 사용하기</button>
+        <button onClick={() => navigate("/page14")}>컨텍스트와 구독 패턴 사용하기</button>
         
     </div>
 }
